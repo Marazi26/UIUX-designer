@@ -20,7 +20,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 60vh;
+  min-height: 40vh;
 }
 .mobile-vh {
   min-height: 100vh;
@@ -58,7 +58,7 @@
   color: #495057;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #979da2;
+  color: #a2a2a2;
   font-weight: 700;
 }
 .bold-text-big {
@@ -66,9 +66,9 @@
   color: #495057;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #979da2;
+  color: #a2a2a2;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .title {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -91,7 +91,7 @@
   color: #495057;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #979da2;
+  color: #a2a2a2;
   font-weight: 700;
   background-color: #ff7a57;
   outline: none;
@@ -105,6 +105,55 @@
   color: #ffffff;
 }
 .button-orange:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.maket h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.maket h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.maket p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.maket button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.maket button a {
+  color: #ffffff;
+}
+.maket button:hover {
   background-color: #ff5c31;
   border: #ff5224;
 }
@@ -132,6 +181,11 @@ nav {
   align-items: center;
   min-height: 2vh;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 5;
 }
 nav .nav-overlay {
   width: 80%;
@@ -163,7 +217,7 @@ nav .nav-overlay .right-nav ul a {
   color: #495057;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #979da2;
+  color: #a2a2a2;
   font-weight: 700;
   font-size: 0.9rem;
 }
@@ -172,7 +226,7 @@ nav .nav-overlay .right-nav button {
   color: #495057;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #979da2;
+  color: #a2a2a2;
   font-weight: 700;
   background-color: #ff7a57;
   outline: none;
@@ -217,7 +271,7 @@ nav .nav-overlay .burger-nav {
     padding: 0.5rem 1rem;
     font-size: 1.5rem;
     border-radius: 0.4rem;
-    color: #979da2;
+    color: #a2a2a2;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -245,7 +299,7 @@ nav .nav-overlay .burger-nav {
     padding: 0.5rem 1rem;
     font-size: 1.5rem;
     border-radius: 0.4rem;
-    color: #979da2;
+    color: #a2a2a2;
   }
 }
 header {
@@ -276,9 +330,9 @@ header .header-overlay .left-header p {
   color: #495057;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #979da2;
+  color: #a2a2a2;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 header .header-overlay .left-header h2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -301,7 +355,7 @@ header .header-overlay .left-header button {
   color: #495057;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #979da2;
+  color: #a2a2a2;
   font-weight: 700;
   background-color: #ff7a57;
   outline: none;
@@ -324,7 +378,7 @@ header .header-overlay .left-header .black-button {
   color: #495057;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #979da2;
+  color: #a2a2a2;
   font-weight: 700;
   background-color: #ff7a57;
   outline: none;
@@ -399,7 +453,7 @@ header .statistics .statistics-info p {
   color: #495057;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #979da2;
+  color: #a2a2a2;
   text-align: center;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -409,14 +463,13 @@ header .statistics .statistics-info p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
-    min-height: 80vh;
+    min-height: 40vh;
     padding-bottom: 2rem;
   }
   header .header-overlay {
     min-height: 100vh;
-    min-height: 60vh;
-    min-height: 80vh;
+    min-height: 40vh;
+    min-height: 50vh;
     overflow-y: hidden;
     position: relative;
     width: 90%;
@@ -434,9 +487,9 @@ header .statistics .statistics-info p {
     color: #495057;
     font-weight: 400;
     font-size: 1.1rem;
-    color: #979da2;
+    color: #a2a2a2;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   header .header-overlay .left-header h2 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -459,7 +512,7 @@ header .statistics .statistics-info p {
     color: #495057;
     font-weight: 400;
     font-size: 1.1rem;
-    color: #979da2;
+    color: #a2a2a2;
     font-weight: 700;
     background-color: #ff7a57;
     outline: none;
@@ -482,7 +535,7 @@ header .statistics .statistics-info p {
     color: #495057;
     font-weight: 400;
     font-size: 1.1rem;
-    color: #979da2;
+    color: #a2a2a2;
     font-weight: 700;
     background-color: #ff7a57;
     outline: none;
@@ -550,7 +603,7 @@ header .statistics .statistics-info p {
     font-weight: 400;
     font-size: 1.1rem;
     font-size: 0.9rem;
-    color: #979da2;
+    color: #a2a2a2;
     text-align: center;
   }
 }
@@ -601,7 +654,7 @@ header .statistics .statistics-info p {
     color: #495057;
     font-weight: 400;
     font-size: 1.1rem;
-    color: #979da2;
+    color: #a2a2a2;
     font-weight: 700;
     background-color: #ff7a57;
     outline: none;
@@ -625,7 +678,7 @@ header .statistics .statistics-info p {
     color: #495057;
     font-weight: 400;
     font-size: 1.1rem;
-    color: #979da2;
+    color: #a2a2a2;
     font-weight: 700;
     background-color: #ff7a57;
     outline: none;
@@ -703,7 +756,1740 @@ header .statistics .statistics-info p {
     font-weight: 400;
     font-size: 1.1rem;
     font-size: 0.9rem;
-    color: #979da2;
+    color: #a2a2a2;
     text-align: center;
+  }
+}
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+.about .about-overlay {
+  min-height: 85vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  gap: 2rem;
+}
+.about .about-overlay .left-about {
+  width: 25%;
+}
+.about .about-overlay .left-about img {
+  border: 0.2rem inset #dfdfdf;
+}
+.about .about-overlay .right-about {
+  width: 73%;
+}
+.about .about-overlay .right-about h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.about .about-overlay .right-about h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.about .about-overlay .right-about p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.about .about-overlay .right-about button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.about .about-overlay .right-about button a {
+  color: #ffffff;
+}
+.about .about-overlay .right-about button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.about .about-overlay .right-about h3 h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.about .about-overlay .right-about h3 h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.about .about-overlay .right-about h3 p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.about .about-overlay .right-about h3 button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.about .about-overlay .right-about h3 button a {
+  color: #ffffff;
+}
+.about .about-overlay .right-about h3 button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    margin: 2rem 0;
+  }
+  .about .about-overlay {
+    min-height: 40vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    gap: 2rem;
+  }
+  .about .about-overlay .left-about {
+    min-width: 30%;
+  }
+  .about .about-overlay .left-about img {
+    border: 0.2rem inset #dfdfdf;
+  }
+  .about .about-overlay .right-about {
+    width: 69%;
+  }
+  .about .about-overlay .right-about h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #495057;
+    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .about .about-overlay .right-about h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #a2a2a2;
+    margin-bottom: 1rem;
+  }
+  .about .about-overlay .right-about p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+  .about .about-overlay .right-about button {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #a2a2a2;
+    font-weight: 700;
+    background-color: #ff7a57;
+    outline: none;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .about .about-overlay .right-about button a {
+    color: #ffffff;
+  }
+  .about .about-overlay .right-about button:hover {
+    background-color: #ff5c31;
+    border: #ff5224;
+  }
+  .about .about-overlay .right-about h2 {
+    font-size: 1.8rem;
+  }
+  .about .about-overlay .right-about p {
+    font-size: 1rem;
+  }
+  .about .about-overlay .right-about button {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    position: relative;
+    margin: 3rem 0;
+  }
+  .about .about-overlay {
+    min-height: 50vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .about .about-overlay .left-about {
+    min-width: 70%;
+  }
+  .about .about-overlay .left-about img {
+    border: 0.2rem inset #dfdfdf;
+  }
+  .about .about-overlay .right-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .about .about-overlay .right-about h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #495057;
+    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .about .about-overlay .right-about h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #a2a2a2;
+    margin-bottom: 1rem;
+  }
+  .about .about-overlay .right-about p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+  .about .about-overlay .right-about button {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #a2a2a2;
+    font-weight: 700;
+    background-color: #ff7a57;
+    outline: none;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .about .about-overlay .right-about button a {
+    color: #ffffff;
+  }
+  .about .about-overlay .right-about button:hover {
+    background-color: #ff5c31;
+    border: #ff5224;
+  }
+  .about .about-overlay .right-about h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .about .about-overlay .right-about p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .about .about-overlay .right-about button {
+    font-size: 0.9rem;
+  }
+}
+.service {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+.service .service-overlay {
+  width: 80%;
+}
+.service .service-overlay .service-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service .service-overlay .service-title h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.service .service-overlay .service-title h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.service .service-overlay .service-title p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.service .service-overlay .service-title button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.service .service-overlay .service-title button a {
+  color: #ffffff;
+}
+.service .service-overlay .service-title button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.service .service-overlay .service-title h3 {
+  margin: 0;
+}
+.service .service-overlay .service-title h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.service .service-overlay .service-title p {
+  width: 70%;
+  text-align: center;
+}
+.service .service-overlay .service-cards {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.service .service-overlay .service-cards .service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 17.5rem;
+  height: 14rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px;
+  border: 1px solid #dfdfdf;
+  border-radius: 0.2rem;
+  transition: 0.1s linear;
+}
+.service .service-overlay .service-cards .service-card:hover {
+  background-color: #ff7a57;
+  border: 1px solid #ff5224;
+}
+.service .service-overlay .service-cards .service-card:hover i {
+  color: #ffffff;
+}
+.service .service-overlay .service-cards .service-card:hover h2 {
+  color: #ffffff;
+}
+.service .service-overlay .service-cards .service-card i {
+  font-size: 2rem;
+  color: #ff7a57;
+}
+.service .service-overlay .service-cards .service-card h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+.service .service-overlay .skills-cards {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.service .service-overlay .skills-cards .skills-card {
+  width: 48.5%;
+  margin-bottom: 2rem;
+}
+.service .service-overlay .skills-cards .skills-card h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.service .service-overlay .skills-cards .skills-card .skills-card-line {
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 0.2rem;
+  background-color: #d5d8dc;
+}
+.service .service-overlay .skills-cards .skills-card .skills-card-overlay {
+  width: 80%;
+  height: 0.2rem;
+  background-color: #ff7a57;
+}
+.service .service-overlay .skills-cards .skills-card .first-skills-overlay {
+  width: 90%;
+}
+.service .service-overlay .skills-cards .skills-card .second-skills-overlay {
+  width: 85%;
+}
+.service .service-overlay .skills-cards .skills-card .third-skills-overlay {
+  width: 97%;
+}
+.service .service-overlay .skills-cards .skills-card .fourth-skills-overlay {
+  width: 93%;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .service {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    margin-top: 3rem;
+  }
+  .service .service-overlay {
+    width: 90%;
+  }
+  .service .service-overlay .service-cards {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .service .service-overlay .service-cards .service-card {
+    width: 48%;
+  }
+  .service .service-overlay .skills-cards {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .service {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+  .service .service-overlay {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 95%;
+  }
+  .service .service-overlay .service-cards {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .service .service-overlay .service-cards .service-card {
+    width: 100%;
+  }
+  .service .service-overlay .skills-cards {
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service .service-overlay .skills-cards .skills-card {
+    width: 100%;
+  }
+}
+.portfolio {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+.portfolio .portfolio-overlay {
+  width: 80%;
+}
+.portfolio .portfolio-overlay .portfolio-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .portfolio-overlay .portfolio-title h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.portfolio .portfolio-overlay .portfolio-title h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.portfolio .portfolio-overlay .portfolio-title p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.portfolio .portfolio-overlay .portfolio-title button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.portfolio .portfolio-overlay .portfolio-title button a {
+  color: #ffffff;
+}
+.portfolio .portfolio-overlay .portfolio-title button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.portfolio .portfolio-overlay .portfolio-title h3 {
+  margin: 0;
+}
+.portfolio .portfolio-overlay .portfolio-title h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.portfolio .portfolio-overlay .portfolio-title p {
+  width: 70%;
+  text-align: center;
+}
+.portfolio .portfolio-overlay .portfolio-cards {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card {
+  width: 33%;
+}
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card .portfolio-card,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card .portfolio-card,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card .portfolio-card {
+  position: relative;
+  overflow: hidden;
+  transition: 3s linear;
+}
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card .portfolio-card img,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card .portfolio-card img,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card .portfolio-card img {
+  border-radius: 0.3rem;
+}
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card .portfolio-card:hover .portfolio-cards-overlay,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card .portfolio-card:hover .portfolio-cards-overlay,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card .portfolio-card:hover .portfolio-cards-overlay {
+  transform: translateY(0);
+}
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card .portfolio-card .portfolio-cards-overlay,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card .portfolio-card .portfolio-cards-overlay,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card .portfolio-card .portfolio-cards-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #ff7957a4;
+  border-radius: 0.3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-200%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card .portfolio-card .portfolio-cards-overlay h2,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card .portfolio-card .portfolio-cards-overlay h2,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card .portfolio-card .portfolio-cards-overlay h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card .portfolio-card .portfolio-cards-overlay ul,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card .portfolio-card .portfolio-cards-overlay ul,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card .portfolio-card .portfolio-cards-overlay ul {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  gap: 0.5rem;
+}
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card .portfolio-card .portfolio-cards-overlay ul li,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card .portfolio-card .portfolio-cards-overlay ul li,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card .portfolio-card .portfolio-cards-overlay ul li {
+  border: 2px solid #ffffff;
+  padding: 0.7rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card .portfolio-card .portfolio-cards-overlay ul li i,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card .portfolio-card .portfolio-cards-overlay ul li i,
+.portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card .portfolio-card .portfolio-cards-overlay ul li i {
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .portfolio {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    margin: 3rem 0;
+  }
+  .portfolio .portfolio-overlay {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .portfolio {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 3rem 0;
+  }
+  .portfolio .portfolio-overlay {
+    width: 95%;
+  }
+  .portfolio .portfolio-overlay .portfolio-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio .portfolio-overlay .portfolio-cards .portfolio-left-card,
+  .portfolio .portfolio-overlay .portfolio-cards .portfolio-mid-card,
+  .portfolio .portfolio-overlay .portfolio-cards .portfolio-right-card {
+    width: 100%;
+  }
+}
+.testmonials {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testmonials .testmonials-overlay {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testmonials .testmonials-overlay .testmonials-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testmonials .testmonials-overlay .testmonials-title h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.testmonials .testmonials-overlay .testmonials-title h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.testmonials .testmonials-overlay .testmonials-title p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.testmonials .testmonials-overlay .testmonials-title button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.testmonials .testmonials-overlay .testmonials-title button a {
+  color: #ffffff;
+}
+.testmonials .testmonials-overlay .testmonials-title button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.testmonials .testmonials-overlay .testmonials-title h3 {
+  margin: 0;
+}
+.testmonials .testmonials-overlay .testmonials-title h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.testmonials .testmonials-overlay .testmonials-title p {
+  width: 70%;
+  text-align: center;
+}
+.testmonials .testmonials-overlay .testmonials-card {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dfdfdf;
+  width: 70%;
+  height: 50vh;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-img img {
+  width: 50%;
+  border-radius: 50%;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info button a {
+  color: #ffffff;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info h3 {
+  margin: 0;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info p {
+  width: 70%;
+  text-align: center;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info p {
+  width: 85%;
+  margin-top: 1rem;
+}
+.testmonials .testmonials-overlay .testmonials-card .testmonial-info h2 {
+  font-size: 1.4rem;
+  padding: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .testmonials {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+  }
+  .testmonials .testmonials-overlay {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .testmonials .testmonials-overlay .testmonials-card {
+    width: 90%;
+    height: 30vh;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .testmonials {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+  .testmonials .testmonials-overlay {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .testmonials .testmonials-overlay .testmonial-img img {
+    width: 40%;
+  }
+  .testmonials .testmonials-overlay .testmonials-card {
+    margin-top: 2rem;
+    width: 90%;
+    height: 30vh;
+  }
+}
+.blog {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog .blog-overlay {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog .blog-overlay .blog-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog .blog-overlay .blog-title h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.blog .blog-overlay .blog-title h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.blog .blog-overlay .blog-title p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.blog .blog-overlay .blog-title button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.blog .blog-overlay .blog-title button a {
+  color: #ffffff;
+}
+.blog .blog-overlay .blog-title button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.blog .blog-overlay .blog-title h3 {
+  margin: 0;
+}
+.blog .blog-overlay .blog-title h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.blog .blog-overlay .blog-title p {
+  width: 70%;
+  text-align: center;
+}
+.blog .blog-overlay .blog-cards {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog .blog-overlay .blog-cards .blog-card {
+  width: 31.3%;
+  border: 1px solid #dfdfdf;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info {
+  padding: 1rem 1.5rem;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info button a {
+  color: #ffffff;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info h2 {
+  font-size: 1.5rem;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  align-items: end;
+  margin: 1rem 0;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-size: 0.9rem;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info ul li i {
+  color: #a2a2a2;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info ul li h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 0.9rem;
+  color: #a2a2a2;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info ul li:hover {
+  text-decoration: underline;
+}
+.blog .blog-overlay .blog-cards .blog-card .blog-info a {
+  color: #ff7a57;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.1rem;
+}
+.blog .blog-overlay .hire-me {
+  margin-top: 8rem;
+  padding: 2rem;
+  background-color: #ff7a57;
+  width: 100%;
+  height: 15vh;
+  border: 1px solid #ff5c31;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog .blog-overlay .hire-me .left-hire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+.blog .blog-overlay .hire-me .left-hire h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+.blog .blog-overlay .hire-me .left-hire h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.blog .blog-overlay .hire-me .right-hire button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ffffff;
+  color: #343a40;
+}
+.blog .blog-overlay .hire-me .right-hire button a {
+  color: #ffffff;
+}
+.blog .blog-overlay .hire-me .right-hire button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.blog .blog-overlay .hire-me .right-hire button:hover {
+  background-color: #d5d8dc;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .blog {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    margin-top: 2rem;
+  }
+  .blog .blog-overlay {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog .blog-overlay .blog-cards {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: stretch;
+  }
+  .blog .blog-overlay .blog-cards .blog-card {
+    width: 31.3%;
+  }
+  .blog .blog-overlay .blog-cards .blog-card .blog-info {
+    padding: 0.9rem 1rem;
+  }
+  .blog .blog-overlay .blog-cards .blog-card .blog-info h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #495057;
+    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .blog .blog-overlay .blog-cards .blog-card .blog-info h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #a2a2a2;
+    margin-bottom: 1rem;
+  }
+  .blog .blog-overlay .blog-cards .blog-card .blog-info p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+  .blog .blog-overlay .blog-cards .blog-card .blog-info button {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #a2a2a2;
+    font-weight: 700;
+    background-color: #ff7a57;
+    outline: none;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .blog .blog-overlay .blog-cards .blog-card .blog-info button a {
+    color: #ffffff;
+  }
+  .blog .blog-overlay .blog-cards .blog-card .blog-info button:hover {
+    background-color: #ff5c31;
+    border: #ff5224;
+  }
+  .blog .blog-overlay .blog-cards .blog-card .blog-info ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: end;
+    margin: 0.5rem 0;
+  }
+  .blog .blog-overlay .hire-me {
+    margin-top: 4rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .blog {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: 0;
+  }
+  .blog .blog-overlay {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog .blog-overlay .blog-cards {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog .blog-overlay .blog-cards .blog-card {
+    margin-top: 1rem;
+    width: 90%;
+  }
+  .blog .blog-overlay .hire-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .blog .blog-overlay .hire-me .left-hire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog .blog-overlay .hire-me .left-hire h2 {
+    text-align: center;
+  }
+  .blog .blog-overlay .hire-me .left-hire h3 {
+    text-align: center;
+  }
+}
+.contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  min-height: 90vh;
+}
+.contact .contact-overlay {
+  min-height: 90vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-overlay .contact-info {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #ffffff;
+  border: 1px solid #dfdfdf;
+  width: 90%;
+  padding: 2rem;
+  padding-top: 0;
+  margin-bottom: -18rem;
+  position: sticky;
+  z-index: 2;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.contact .contact-overlay .contact-info .my-form {
+  width: 60%;
+  padding-top: 2rem;
+  border-right: 1px solid #d5d8dc;
+}
+.contact .contact-overlay .contact-info .my-form h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #495057;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.contact .contact-overlay .contact-info .my-form h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  margin-bottom: 1rem;
+}
+.contact .contact-overlay .contact-info .my-form p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.contact .contact-overlay .contact-info .my-form button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.contact .contact-overlay .contact-info .my-form button a {
+  color: #ffffff;
+}
+.contact .contact-overlay .contact-info .my-form button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.contact .contact-overlay .contact-info .my-form h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.contact .contact-overlay .contact-info .my-form form {
+  width: 95%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+.contact .contact-overlay .contact-info .my-form form textarea,
+.contact .contact-overlay .contact-info .my-form form input {
+  border: 1px solid #a2a2a2;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+  padding: 1rem 0;
+  outline: none;
+  resize: vertical;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 1rem;
+  color: #979696;
+}
+.contact .contact-overlay .contact-info .my-form form textarea::placeholder,
+.contact .contact-overlay .contact-info .my-form form input::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 1rem;
+  color: #979696;
+}
+.contact .contact-overlay .contact-info .my-form form textarea:focus,
+.contact .contact-overlay .contact-info .my-form form input:focus {
+  border: 1px solid transparent;
+  outline: 0.2rem solid #ff7957a4;
+}
+.contact .contact-overlay .contact-info .my-form button {
+  margin-top: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  background-color: #ff7a57;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+.contact .contact-overlay .contact-info .my-form button a {
+  color: #ffffff;
+}
+.contact .contact-overlay .contact-info .my-form button:hover {
+  background-color: #ff5c31;
+  border: #ff5224;
+}
+.contact .contact-overlay .contact-info .my-contact {
+  width: 40%;
+  padding-top: 2rem;
+}
+.contact .contact-overlay .contact-info .my-contact .cont {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.contact .contact-overlay .contact-info .my-contact .cont .icons {
+  border: 0.8px solid #ff7a57;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+}
+.contact .contact-overlay .contact-info .my-contact .cont .icons i {
+  color: #ff7957a4;
+}
+.contact .contact-overlay .contact-info .my-contact .cont .cont-info h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #495057;
+  padding-bottom: 0.5rem;
+}
+.contact .contact-overlay .contact-info .my-contact .cont .cont-info a,
+.contact .contact-overlay .contact-info .my-contact .cont .cont-info h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a2a2a2;
+}
+.contact .contact-overlay .contact-info .my-contact .cont .cont-info p {
+  width: 20rem;
+  height: 1px;
+  background-color: #dfdfdf;
+  margin-top: 0.8rem;
+}
+.contact .contact-overlay .map {
+  position: relative;
+}
+.contact .contact-overlay .map #my-iframe {
+  width: 98.5vw;
+  height: 70vh;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+  }
+  .contact .contact-overlay {
+    min-height: unset;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-overlay .contact-info {
+    width: 87%;
+    padding-top: 0;
+    margin-bottom: -13rem;
+  }
+  .contact .contact-overlay .contact-info .my-form {
+    width: 100%;
+    padding-top: 2rem;
+    border-right: none;
+  }
+  .contact .contact-overlay .contact-info .my-form h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #495057;
+    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .contact .contact-overlay .contact-info .my-form h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #a2a2a2;
+    margin-bottom: 1rem;
+  }
+  .contact .contact-overlay .contact-info .my-form p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+  .contact .contact-overlay .contact-info .my-form button {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #a2a2a2;
+    font-weight: 700;
+    background-color: #ff7a57;
+    outline: none;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .contact .contact-overlay .contact-info .my-form button a {
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-info .my-form button:hover {
+    background-color: #ff5c31;
+    border: #ff5224;
+  }
+  .contact .contact-overlay .contact-info .my-form form {
+    width: 95%;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-info .my-form form textarea,
+  .contact .contact-overlay .contact-info .my-form form input {
+    padding: 0.7rem 0;
+  }
+  .contact .contact-overlay .contact-info .my-contact {
+    display: none;
+  }
+  .contact .contact-overlay .map {
+    position: relative;
+  }
+  .contact .contact-overlay .map #my-iframe {
+    width: 98.5vw;
+    height: 40vh;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+  .contact .contact-overlay {
+    min-height: unset;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-overlay .contact-info {
+    width: 95%;
+    padding-top: 0;
+    margin-bottom: -15rem;
+  }
+  .contact .contact-overlay .contact-info .my-form {
+    width: 100%;
+  }
+  .contact .contact-overlay .contact-info .my-form form {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-info .my-form form textarea,
+  .contact .contact-overlay .contact-info .my-form form input {
+    padding: 0.7rem 0;
+  }
+  .contact .contact-overlay .contact-info .my-contact {
+    display: none;
+  }
+  .contact .contact-overlay .map {
+    position: relative;
+  }
+  .contact .contact-overlay .map #my-iframe {
+    width: 98.5vw;
+    height: 40vh;
+  }
+}
+footer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 2vh;
+  padding-bottom: 2rem;
+}
+footer .footer-overlay {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: baseline;
+}
+footer .footer-overlay h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #495057;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #343a40;
+}
+footer .footer-overlay ul {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+footer .footer-overlay ul li {
+  border: 2px solid #ff7a57;
+  padding: 1rem 1.2rem;
+  border-radius: 50%;
+}
+footer .footer-overlay ul li a {
+  color: #ff5c31;
+}
+footer .footer-overlay ul .g {
+  padding: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  footer {
+    min-height: 5vh;
+    padding: 2rem 0;
+    width: 95%;
+  }
+  footer .footer-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

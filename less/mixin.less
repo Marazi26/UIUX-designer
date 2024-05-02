@@ -1,3 +1,4 @@
+@import "variables.less";
 .desktop-sizing{
     width: 80%;
 }
@@ -16,7 +17,7 @@
 }
 .tablet-vh{
     .desktop-vh();
-    min-height: 60vh;
+    min-height: 40vh;
 }
 .mobile-vh{
     .desktop-vh();
@@ -52,7 +53,7 @@
 }
 .bold-text-big{
     .bold-text();
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .title{  
     font-family: @ff;
@@ -81,5 +82,32 @@
     &:hover{
         background-color: @dark-orange;
         border: @border-orange;
+    }
+}
+
+
+.maket {
+    h2 {
+        .title();
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    h3 {
+        .norm-text();
+        color: @light-gray;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        .norm-text();
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    button {
+        .button-orange();
+        font-size: 1rem;
+        text-transform: uppercase;
     }
 }
