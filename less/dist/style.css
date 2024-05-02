@@ -2123,7 +2123,7 @@ header .statistics .statistics-info p {
   width: 90%;
   padding: 2rem;
   padding-top: 0;
-  margin-bottom: -20rem;
+  margin-bottom: -18rem;
   position: sticky;
   z-index: 2;
   display: flex;
@@ -2299,7 +2299,7 @@ header .statistics .statistics-info p {
 }
 .contact .contact-overlay .map #my-iframe {
   width: 98.5vw;
-  height: 60vh;
+  height: 70vh;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .contact {
