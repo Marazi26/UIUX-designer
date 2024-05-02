@@ -470,7 +470,8 @@ header {
 
     @media screen and (min-width:768px) and (max-width:1024px) {
         .tablet-vh();
-        margin: 2rem 0 ;
+        margin: 2rem 0;
+
         .about-overlay {
             min-height: 40vh;
             .tablet-sizing();
@@ -615,40 +616,48 @@ header {
             }
         }
 
-        .skills-cards{
+        .skills-cards {
             margin-top: 5rem;
             .flex-box-sp();
             flex-wrap: wrap;
             gap: 1rem;
-            .skills-card{
+
+            .skills-card {
                 width: 48.5%;
                 margin-bottom: 2rem;
-                h2{
+
+                h2 {
                     .norm-text();
                     font-weight: 500;
                     margin-bottom: 1rem;
                 }
-                .skills-card-line{
+
+                .skills-card-line {
                     width: 100%;
                     height: .2rem;
                     border-radius: .2rem;
                     background-color: @light-gray-border;
                 }
-                .skills-card-overlay{
+
+                .skills-card-overlay {
                     width: 80%;
                     height: .2rem;
                     background-color: @orange;
                 }
-                .first-skills-overlay{
+
+                .first-skills-overlay {
                     width: 90%;
                 }
-                .second-skills-overlay{
+
+                .second-skills-overlay {
                     width: 85%;
                 }
-                .third-skills-overlay{
+
+                .third-skills-overlay {
                     width: 97%;
                 }
-                .fourth-skills-overlay{
+
+                .fourth-skills-overlay {
                     width: 93%;
                 }
             }
@@ -658,19 +667,20 @@ header {
     @media screen and (min-width:768px) and (max-width:1024px) {
         .tablet-vh();
         margin-top: 3rem;
+
         .service-overlay {
             .tablet-sizing();
 
-            .service-cards{
+            .service-cards {
                 justify-content: center;
                 flex-wrap: wrap;
 
-                .service-card{
+                .service-card {
                     width: 48%;
                 }
             }
 
-            .skills-cards{
+            .skills-cards {
                 margin-top: 5rem;
                 .flex-box-sp();
                 justify-content: center;
@@ -682,27 +692,428 @@ header {
 
     @media screen and (min-width:320px) and (max-width:768px) {
         .mobile-vh();
-    
+
         .service-overlay {
             .mobile-vh();
             .mobile-sizing();
-        
+
             .service-cards {
                 margin-top: 5rem;
                 .flex-box-cc();
                 width: 100%;
-                .service-card{
-                width: 100%;
+
+                .service-card {
+                    width: 100%;
 
                 }
             }
 
-            .skills-cards{
+            .skills-cards {
                 margin-top: 5rem;
                 width: 100%;
                 .flex-box-cc();
-                .skills-card{
+
+                .skills-card {
                     width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.portfolio {
+    .desktop-vh();
+    min-height: 85vh;
+
+    .portfolio-overlay {
+        .desktop-sizing();
+
+        .portfolio-title {
+            .flex-box-cc();
+            .maket();
+
+            h3 {
+                margin: 0;
+            }
+
+            h2 {
+                text-align: center;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                width: 70%;
+                text-align: center;
+            }
+        }
+
+        .portfolio-cards {
+            .flex-box();
+            gap: 1rem;
+
+            .portfolio-left-card,
+            .portfolio-mid-card,
+            .portfolio-right-card {
+                width: 33%;
+
+                .portfolio-card {
+                    img {
+                        border-radius: .3rem;
+                    }
+
+                    position: relative;
+                    overflow: hidden;
+                    transition: 3s linear;
+
+                    &:hover .portfolio-cards-overlay {
+                        transform: translateY(0);
+                    }
+
+                    .portfolio-cards-overlay {
+                        width: 100%;
+                        height: 100%;
+                        background-color: @orange-tr;
+                        border-radius: .3rem;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        transform: translateY(-200%);
+
+                        .flex-box-cc();
+
+                        h2 {
+                            .bold-text-big();
+                            color: @white;
+                            font-weight: 400;
+                        }
+
+                        ul {
+                            margin-top: 1rem;
+                            .flex-box();
+                            gap: .5rem;
+
+                            li {
+                                border: 2px solid @white;
+                                padding: .7rem;
+                                border-radius: 50%;
+                                cursor: pointer;
+
+                                i {
+                                    color: @white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+        .tablet-vh();
+        margin: 3rem 0;
+
+        .portfolio-overlay {
+            .tablet-sizing();
+        }
+    }
+
+    @media screen and (min-width:320px) and (max-width:768px) {
+        .mobile-vh();
+        margin: 3rem 0;
+
+        .portfolio-overlay {
+            .mobile-sizing();
+
+            .portfolio-cards {
+                .flex-box-cc();
+
+                .portfolio-left-card,
+                .portfolio-mid-card,
+                .portfolio-right-card {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.testmonials {
+    .desktop-vh();
+
+    .testmonials-overlay {
+        .desktop-sizing();
+        .flex-box-cc();
+
+        .testmonials-title {
+            .flex-box-cc();
+            .maket();
+
+            h3 {
+                margin: 0;
+            }
+
+            h2 {
+                text-align: center;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                width: 70%;
+                text-align: center;
+            }
+        }
+
+        .testmonials-card {
+            margin-top: 5rem;
+            .flex-box-cc();
+            border: 1px solid @border;
+            width: 70%;
+            height: 50vh;
+
+            .testmonial-img {
+                .flex-box-cc();
+
+                img {
+                    width: 50%;
+                    border-radius: 50%;
+                }
+            }
+
+            .testmonial-info {
+                .testmonials-title();
+
+                p {
+                    width: 85%;
+                    margin-top: 1rem;
+                }
+
+                h2 {
+                    font-size: 1.4rem;
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+        .tablet-vh();
+
+        .testmonials-overlay {
+            .tablet-sizing();
+            .flex-box-cc();
+
+            .testmonials-card {
+                width: 90%;
+                height: 30vh;
+            }
+        }
+    }
+
+    @media screen and (min-width:320px) and (max-width:1024px) {
+        .mobile-vh();
+
+        .testmonials-overlay {
+            .mobile-sizing();
+            .flex-box-cc();
+
+            .testmonial-img {
+                img {
+                    width: 40%;
+                }
+            }
+
+            .testmonials-card {
+                margin-top: 2rem;
+                width: 90%;
+                height: 30vh;
+            }
+        }
+    }
+}
+
+.blog {
+    .desktop-vh();
+
+    .blog-overlay {
+        .desktop-sizing();
+        .flex-box-cc();
+
+        .blog-title {
+            .flex-box-cc();
+            .maket();
+
+            h3 {
+                margin: 0;
+            }
+
+            h2 {
+                text-align: center;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                width: 70%;
+                text-align: center;
+            }
+        }
+
+        .blog-cards {
+            margin-top: 4rem;
+            .flex-box-sp();
+
+            .blog-card {
+                width: 31.3%;
+                border: 1px solid @border;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                border-radius: .2rem;
+                overflow: hidden;
+
+                .blog-info {
+                    .maket();
+                    padding: 1rem 1.5rem;
+
+                    h2 {
+                        font-size: 1.5rem;
+                    }
+
+                    ul {
+                        .flex-box();
+                        align-items: end;
+                        margin: 1rem 0;
+
+                        li {
+                            .flex-box();
+                            .norm-text();
+                            color: @light-gray;
+                            font-size: .9rem;
+
+                            i {
+                                color: @light-gray;
+                            }
+
+                            h4 {
+                                .norm-text();
+                                font-size: .9rem;
+                                color: @light-gray;
+                            }
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+
+                    a {
+                        color: @orange;
+                        font-family: @ff;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        .hire-me {
+            margin-top: 8rem;
+            padding: 2rem;
+            background-color: @orange;
+            width: 100%;
+            height: 15vh;
+            border: 1px solid @dark-orange;
+            border-radius: .3rem;
+            .flex-box-sp();
+            .left-hire {
+                .flex-box-cc();
+                align-items: flex-start;
+                h2 {
+                    .title();
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    color: @white;
+                }
+
+                h3 {
+                    .norm-text();
+                    color: @white;
+                    margin-bottom: 1rem;
+                }
+            }
+            .right-hire{
+                button{
+                    .button-orange();
+                    background-color: @white;
+                    color: @black;
+                    &:hover{
+                        background-color: @light-gray-border;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+        .tablet-vh();
+        margin-top: 2rem;
+
+        .blog-overlay {
+            .tablet-sizing();
+            .flex-box-cc();
+
+            .blog-cards {
+                margin-top: 4rem;
+                .flex-box-sp();
+                align-items: stretch;
+
+                .blog-card {
+                    width: 31.3%;
+
+                    .blog-info {
+                        .maket();
+                        padding: .9rem 1rem;
+
+                        ul {
+                            .flex-box();
+                            flex-wrap: wrap;
+                            align-items: end;
+                            margin: .5rem 0;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:320px) and (max-width:768px) {
+        .mobile-vh();
+        margin-top: 2rem;
+
+        .blog-overlay {
+            .mobile-sizing();
+            .flex-box-cc();
+
+            .blog-cards {
+                margin-top: 2rem;
+                .flex-box-cc();
+
+                .blog-card {
+                    margin-top: 1rem;
+                    width: 90%;
+                }
+            }
+
+            .hire-me {
+                .flex-box-cc();
+                .left-hire {
+                    .flex-box-cc();
+                    h2 {
+                        text-align: center;
+                    }
+    
+                    h3 {
+                        text-align: center;
+                    }
                 }
             }
         }
