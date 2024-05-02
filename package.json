@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "less": "^4.2.0"
+    "less": "^4.2.0",
+    "node-modules": "^1.0.1"
   }
 }

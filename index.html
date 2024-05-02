@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Designer</title>
+    <link rel="icon" href="./assets/nav/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
+    <nav>
+        <div class="nav-overlay">
+            <div class="left-nav">
+                <img src="./assets/nav/logo.svg" alt="logo">
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#protfolio">Portfolio</a></li>
+                    <li><a href="#testmonial">Testmonial</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button><a href="#components">Components</a></button>
+            </div>
+            <div class="burger-nav">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-overlay">
+            <div class="left-header">
+                <p>hello, I'm</p>
+                <h2>James Smith</h2>
+                <h1>UI/UX Designer</h1>
+                <button>Hire Me</button>
+                <button class="black-button">Download Cv</button>
+                <ul>
+                    <li><a href="https://www.google.com/search?q=Armenia&sca_esv=b511c58466c4623d&ei=t3oyZpCTJ4fAxc8P0KKxoA0&udm=&ved=0ahUKEwjQypKI_OyFAxUHYPEDHVBRDNQQ4dUDCBA&uact=5&oq=Armenia&gs_lp=Egxnd3Mtd2l6LXNlcnAiB0FybWVuaWEyChAAGIAEGEMYigUyDRAAGIAEGLEDGEMYigUyCxAAGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyChAAGIAEGEMYigUyChAAGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgARI-hlQZ1jBGHACeAGQAQSYAa0BoAGED6oBBDAuMTS4AQPIAQD4AQGYAgugAusJqAIKwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIIEAAYgAQYsQOYAwiIBgGQBgq6BgQIARgHkgcDMi45oAfiQw&sclient=gws-wiz-serp"
+                            target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="g"><a
+                            href="https://www.google.com/search?q=Armenia&sca_esv=b511c58466c4623d&ei=t3oyZpCTJ4fAxc8P0KKxoA0&udm=&ved=0ahUKEwjQypKI_OyFAxUHYPEDHVBRDNQQ4dUDCBA&uact=5&oq=Armenia&gs_lp=Egxnd3Mtd2l6LXNlcnAiB0FybWVuaWEyChAAGIAEGEMYigUyDRAAGIAEGLEDGEMYigUyCxAAGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyChAAGIAEGEMYigUyChAAGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgARI-hlQZ1jBGHACeAGQAQSYAa0BoAGED6oBBDAuMTS4AQPIAQD4AQGYAgugAusJqAIKwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIIEAAYgAQYsQOYAwiIBgGQBgq6BgQIARgHkgcDMi45oAfiQw&sclient=gws-wiz-serp"
+                            target="_blank"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                    <li><a href="https://www.google.com/search?q=Armenia&sca_esv=b511c58466c4623d&ei=t3oyZpCTJ4fAxc8P0KKxoA0&udm=&ved=0ahUKEwjQypKI_OyFAxUHYPEDHVBRDNQQ4dUDCBA&uact=5&oq=Armenia&gs_lp=Egxnd3Mtd2l6LXNlcnAiB0FybWVuaWEyChAAGIAEGEMYigUyDRAAGIAEGLEDGEMYigUyCxAAGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyChAAGIAEGEMYigUyChAAGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgARI-hlQZ1jBGHACeAGQAQSYAa0BoAGED6oBBDAuMTS4AQPIAQD4AQGYAgugAusJqAIKwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIIEAAYgAQYsQOYAwiIBgGQBgq6BgQIARgHkgcDMi45oAfiQw&sclient=gws-wiz-serp"
+                            target="_blank"><i class="fa-brands fa-github-alt"></i></a></li>
+                    <li><a href="https://www.google.com/search?q=Armenia&sca_esv=b511c58466c4623d&ei=t3oyZpCTJ4fAxc8P0KKxoA0&udm=&ved=0ahUKEwjQypKI_OyFAxUHYPEDHVBRDNQQ4dUDCBA&uact=5&oq=Armenia&gs_lp=Egxnd3Mtd2l6LXNlcnAiB0FybWVuaWEyChAAGIAEGEMYigUyDRAAGIAEGLEDGEMYigUyCxAAGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyChAAGIAEGEMYigUyChAAGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgARI-hlQZ1jBGHACeAGQAQSYAa0BoAGED6oBBDAuMTS4AQPIAQD4AQGYAgugAusJqAIKwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIIEAAYgAQYsQOYAwiIBgGQBgq6BgQIARgHkgcDMi45oAfiQw&sclient=gws-wiz-serp"
+                            target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="right-header">
+                <img src="./assets/header/man.svg" alt="James Smith">
+            </div>
+        </div>
+        <div class="statistics">
+            <div class="statistics-info">
+                <h3>124</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="statistics-info">
+                <h3>426</h3>
+                <p>Project Completed</p>
+            </div>
+            <div class="statistics-info">
+                <h3 style="border: none;">789</h3>
+                <p>Awards Won</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="about-overlay">
+                <div class="left-about">
+                    <img src="./assets/about/avatar.jpg" alt="me">
+                </div>
+                <div class="right-about">
+                    <h2>James Smith</h2>
+                    <h3>UI/UX Designer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum repudiandae quidem quod, magni magnam.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum repudiandae quidem quod, magni magnam.</p>
+                    <button>Download CV</button>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
