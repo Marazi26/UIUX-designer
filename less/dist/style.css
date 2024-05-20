@@ -40,6 +40,11 @@
   justify-content: space-between;
   align-items: center;
 }
+.flex-box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .flex-box-cc {
   display: flex;
   flex-direction: column;
@@ -308,22 +313,20 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 85vh;
-  position: relative;
   border: 1px solid #dfdfdf;
+  position: relative;
+  width: 100%;
 }
 header .header-overlay {
-  min-height: 85vh;
-  overflow-y: hidden;
-  position: relative;
+  min-height: 100vh;
   width: 80%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   gap: 2rem;
 }
 header .header-overlay .left-header {
-  width: 49%;
+  height: 100%;
 }
 header .header-overlay .left-header p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -417,11 +420,14 @@ header .header-overlay .left-header ul li a {
 header .header-overlay .left-header ul .g {
   padding: 1rem;
 }
+header .header-overlay .right-header {
+  width: 55%;
+  height: 100vh;
+}
 header .header-overlay .right-header img {
-  width: 58%;
-  position: absolute;
-  top: -10%;
-  right: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 header .statistics {
   display: flex;
@@ -609,12 +615,7 @@ header .statistics .statistics-info p {
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 50vh;
+    min-height: 80vh;
     padding-bottom: 2rem;
   }
   header .header-overlay {
@@ -729,7 +730,8 @@ header .statistics .statistics-info p {
     align-items: center;
     gap: 1rem;
     justify-content: space-between;
-    min-width: 90vw;
+    gap: 0.2rem;
+    min-width: 97vw;
     padding: 0 2rem;
     height: 15%;
     border-radius: 5rem 5rem;
@@ -748,14 +750,14 @@ header .statistics .statistics-info p {
     font-size: 1.1rem;
     font-weight: 500;
     border-right: 1px solid #dfdfdf;
-    padding: 0;
+    padding: 0 2rem;
   }
   header .statistics .statistics-info p {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #495057;
     font-weight: 400;
     font-size: 1.1rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #a2a2a2;
     text-align: center;
   }
@@ -1258,12 +1260,8 @@ header .statistics .statistics-info p {
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .service {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 50vh;
+    min-height: 105vh;
+    justify-content: end;
   }
   .service .service-overlay {
     min-height: 100vh;
@@ -1672,7 +1670,7 @@ header .statistics .statistics-info p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
+    min-height: 50vh;
   }
   .testmonials .testmonials-overlay {
     width: 90%;
@@ -1682,18 +1680,18 @@ header .statistics .statistics-info p {
     align-items: center;
   }
   .testmonials .testmonials-overlay .testmonials-card {
+    margin-top: 2rem;
     width: 90%;
     height: 30vh;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 1024px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .testmonials {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
   }
   .testmonials .testmonials-overlay {
     width: 95%;
@@ -1708,7 +1706,7 @@ header .statistics .statistics-info p {
   .testmonials .testmonials-overlay .testmonials-card {
     margin-top: 2rem;
     width: 90%;
-    height: 30vh;
+    height: 50vh;
   }
 }
 .blog {
@@ -1901,7 +1899,7 @@ header .statistics .statistics-info p {
   padding: 2rem;
   background-color: #ff7a57;
   width: 100%;
-  height: 15vh;
+  min-height: 15vh;
   border: 1px solid #ff5c31;
   border-radius: 0.3rem;
   display: flex;
@@ -2053,13 +2051,7 @@ header .statistics .statistics-info p {
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .blog {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 50vh;
-    margin-top: 0;
+    margin-top: 1rem;
   }
   .blog .blog-overlay {
     width: 95%;
@@ -2084,6 +2076,7 @@ header .statistics .statistics-info p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 3rem 0 0 0;
     width: 90%;
   }
   .blog .blog-overlay .hire-me .left-hire {
@@ -2420,6 +2413,7 @@ header .statistics .statistics-info p {
   }
   .contact .contact-overlay .contact-info .my-form {
     width: 100%;
+    border: none;
   }
   .contact .contact-overlay .contact-info .my-form form {
     width: 100%;

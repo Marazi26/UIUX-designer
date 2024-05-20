@@ -132,21 +132,18 @@ nav {
 
 header {
     .desktop-vh();
-    min-height: 85vh;
-    position: relative;
     border: 1px solid @border;
+    position: relative;
+    width: 100%;
 
     .header-overlay {
-        min-height: 85vh;
-        overflow-y: hidden;
-        position: relative;
+        min-height: 100vh;
         .desktop-sizing();
-        .flex-box();
+        .flex-box-sp();
         gap: 2rem;
 
         .left-header {
-            width: 49%;
-
+            height: 100%;
             p {
                 .bold-text-big();
             }
@@ -198,11 +195,13 @@ header {
         }
 
         .right-header {
+            width: 55%;
+            height: 100vh;
+
             img {
-                width: 58%;
-                position: absolute;
-                top: -10%;
-                right: 0;
+                width: 100%;
+                height: 100vh;
+                object-fit: cover;
             }
         }
     }
@@ -338,7 +337,7 @@ header {
     }
 
     @media screen and (min-width:320px) and (max-width:768px) {
-        .mobile-vh();
+        min-height: 80vh;
         padding-bottom: 2rem;
 
         .header-overlay {
@@ -414,7 +413,8 @@ header {
         .statistics {
             .flex-box();
             justify-content: space-between;
-            min-width: 90vw;
+            gap: .2rem;
+            min-width: 97vw;
             padding: 0 2rem;
             height: 15%;
             border-radius: 5rem 5rem;
@@ -427,12 +427,12 @@ header {
                     .norm-text();
                     font-weight: 500;
                     border-right: 1px solid @border;
-                    padding: 0;
+                    padding: 0 2rem;
                 }
 
                 p {
                     .norm-text();
-                    font-size: .9rem;
+                    font-size: .8rem;
                     color: @light-gray;
                     text-align: center;
                 }
@@ -692,8 +692,8 @@ header {
     }
 
     @media screen and (min-width:320px) and (max-width:768px) {
-        .mobile-vh();
-
+        min-height: 105vh;
+        justify-content: end;
         .service-overlay {
             .mobile-vh();
             .mobile-sizing();
@@ -899,21 +899,22 @@ header {
     }
 
     @media screen and (min-width:768px) and (max-width:1024px) {
-        .tablet-vh();
+        .mobile-vh();
 
         .testmonials-overlay {
             .tablet-sizing();
             .flex-box-cc();
 
             .testmonials-card {
+                margin-top: 2rem;
                 width: 90%;
                 height: 30vh;
             }
         }
     }
 
-    @media screen and (min-width:320px) and (max-width:1024px) {
-        .mobile-vh();
+    @media screen and (min-width:320px) and (max-width:768px) {
+        .desktop-vh();
 
         .testmonials-overlay {
             .mobile-sizing();
@@ -928,7 +929,7 @@ header {
             .testmonials-card {
                 margin-top: 2rem;
                 width: 90%;
-                height: 30vh;
+                height: 50vh;
             }
         }
     }
@@ -1020,7 +1021,7 @@ header {
             padding: 2rem;
             background-color: @orange;
             width: 100%;
-            height: 15vh;
+            min-height: 15vh;
             border: 1px solid @dark-orange;
             border-radius: .3rem;
             .flex-box-sp();
@@ -1095,8 +1096,7 @@ header {
     }
 
     @media screen and (min-width:320px) and (max-width:768px) {
-        .mobile-vh();
-        margin-top: 0;
+        margin-top: 1rem;
 
         .blog-overlay {
             .mobile-sizing();
@@ -1114,6 +1114,7 @@ header {
 
             .hire-me {
                 .flex-box-cc();
+                margin:3rem 0 0 0;
                 width: 90%;
 
                 .left-hire {
@@ -1343,7 +1344,7 @@ header {
 
                 .my-form {
                     width: 100%;
-
+                    border: none;
                     form {
                         width: 100%;
                         margin-top: 2rem;
@@ -1416,11 +1417,12 @@ footer {
         }
     }
 
-    @media screen and (min-width:320px) and (max-width:768px){
+    @media screen and (min-width:320px) and (max-width:768px) {
         min-height: 5vh;
         padding: 2rem 0;
         .mobile-sizing();
-        .footer-overlay{
+
+        .footer-overlay {
             .flex-box-cc();
         }
     }
