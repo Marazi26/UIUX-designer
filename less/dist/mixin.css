@@ -40,6 +40,11 @@
   justify-content: space-between;
   align-items: center;
 }
+.flex-box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .flex-box-cc {
   display: flex;
   flex-direction: column;
